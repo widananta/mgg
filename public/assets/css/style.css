@@ -1,0 +1,48 @@
+.form-group .bmd-label-static{
+	top: -17px;
+    left: 0;
+    font-size: 0.8875rem;
+}
+
+.form-group .bmd-label-floating{
+    font-size: 0.8875rem;
+}
+
+.form-check-input {
+    margin-left: 0;
+}
+
+.label-checkbox{
+	margin-left: 1.25rem;
+	color: #000;
+}
+
+label.checkbox3col {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  margin-right: 0;
+}
+
+label.checkbox3col:last-child:after {
+  clear: both;
+  content: " ";
+  display: inline-block;
+  height: 0px;
+  overflow: hidden;
+}
+
+.labelkebawah {
+	display: inline-block;
+}
+
+.inputkosong {
+	margin-left: 800px;
+	color: red;
+}
+
+@media (max-width: 740px) {
+	.inputkosong {
+		margin-left: 100px;
+	}
+}

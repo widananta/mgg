@@ -1,0 +1,168 @@
+
+
+.logo {
+	padding: 20px 0px;
+}	
+
+.logo .image {
+    width: 100%;
+	text-align: left;
+    position: relative;
+    
+    
+    display: inline;
+}
+
+.navbar .nav-item .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.gocampus-color {
+  background-color: #0395ae !important; }  
+  
+.container .container-fluid {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.input-group-prepend .btn {
+    position: relative;
+    z-index: 2;
+	padding: 0 0 0 0;
+}
+
+.btn {
+	text-transform: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.btn-default.dropdown-toggle {
+    background-color: #0395ae !important;
+}
+
+.btn-default.dropdown-toggle:hover, .btn-default.dropdown-toggle:focus {
+    background-color: #0395ae !important;
+}
+
+.kotak-filter{
+	padding-bottom: 40px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.kotak-filter select {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+.btn {
+	padding: 10px 10px 10px 10px;
+}
+
+.btn.btn-lg {
+	padding: 7px 25px 10px 15px;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook, .fa-twitter, .fa-google {
+    background-color: #0395ae !important;
+    color: white;
+}
+
+.pojokkanan {
+	text-align: right;
+	position: relative;
+}
+
+.tabel-image {
+	border-collapse: collapse;
+	width : 100%;
+}
+
+div.featured-box {
+    padding: 23px 0 60px 0;
+    background: rgba(0,0,0,0.01);
+    text-align: center;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+	border: 0 !important;
+}
+
+div.featured-box i.fa {
+    padding: 0;
+    color: #fff;
+    margin: 20px 0;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.subjudul {
+	font-size: 21px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    letter-spacing: -1px;
+}
+
+.form-center {
+	min-width: 500px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.hide-element {
+	display: none;
+}
+
+.btn.btn-round {
+    border-radius: 30px;
+}
+
+@media (max-width: 740px) {
+  .form-center {
+    min-width: 80%;
+	margin: auto;
+  }
+  .pojokkanan {
+	  display: none;
+  }
+  .hide-element {
+	  display: block;
+  }
+  canvas {
+	  max-height: 300px;
+  }
+}
